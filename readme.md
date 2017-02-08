@@ -1,1 +1,1 @@
-Boilerplate React App
+Timer Web Application based on React framework 

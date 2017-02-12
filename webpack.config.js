@@ -23,9 +23,10 @@ module.exports = {
   resolve: {
     alias: {
       Main$: path.join(__dirname, 'app/components/Main.jsx'),
-      Nav$:path.join(__dirname,'app/components/Nav.jsx'),
-      Timer$:path.join(__dirname,'app/components/Timer.jsx'),
-      Countdown$:path.join(__dirname,'app/components/Countdown.jsx'),
+      Nav$: path.join(__dirname, 'app/components/Nav.jsx'),
+      Timer$: path.join(__dirname, 'app/components/Timer.jsx'),
+      Countdown$: path.join(__dirname, 'app/components/Countdown.jsx'),
+      Clock$: path.join(__dirname, 'app/components/Clock.jsx'),
       applicationStyles$: path.join(__dirname, 'app/styles/app.scss')
     },
     extensions: ['.js', '.jsx']

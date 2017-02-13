@@ -27,7 +27,8 @@ module.exports = {
       Timer$: path.join(__dirname, 'app/components/Timer.jsx'),
       Countdown$: path.join(__dirname, 'app/components/Countdown.jsx'),
       Clock$: path.join(__dirname, 'app/components/Clock.jsx'),
-      applicationStyles$: path.join(__dirname, 'app/styles/app.scss')
+      applicationStyles$: path.join(__dirname, 'app/styles/app.scss'),
+      CountdownForm$:path.join(__dirname, 'app/components/CountdownForm.jsx')
     },
     extensions: ['.js', '.jsx']
   },

@@ -28,7 +28,8 @@ module.exports = {
       Countdown$: path.join(__dirname, 'app/components/Countdown.jsx'),
       Clock$: path.join(__dirname, 'app/components/Clock.jsx'),
       applicationStyles$: path.join(__dirname, 'app/styles/app.scss'),
-      CountdownForm$:path.join(__dirname, 'app/components/CountdownForm.jsx')
+      CountdownForm$:path.join(__dirname, 'app/components/CountdownForm.jsx'),
+      Controls$:path.join(__dirname, 'app/components/Controls.jsx')
     },
     extensions: ['.js', '.jsx']
   },

@@ -28,8 +28,8 @@ module.exports = {
       Countdown$: path.join(__dirname, 'app/components/Countdown.jsx'),
       Clock$: path.join(__dirname, 'app/components/Clock.jsx'),
       applicationStyles$: path.join(__dirname, 'app/styles/app.scss'),
-      CountdownForm$:path.join(__dirname, 'app/components/CountdownForm.jsx'),
-      Controls$:path.join(__dirname, 'app/components/Controls.jsx')
+      CountdownForm$: path.join(__dirname, 'app/components/CountdownForm.jsx'),
+      Controls$: path.join(__dirname, 'app/components/Controls.jsx')
     },
     extensions: ['.js', '.jsx']
   },
@@ -42,7 +42,15 @@ module.exports = {
         },
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/
+      },
+      {
+        loader: "sass-loader",
+        test: /\.scss$/,
+        options: {
+          includePaths: [path.resolve(__dirname, 'node_modules/foundation-sites/scss/')]
+        }
       }
+
     ]
   },
   devtool: 'cheap-module-eval-source-map'
